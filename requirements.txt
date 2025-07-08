@@ -1,0 +1,6 @@
+requests
+beautifulsoup4
+sumy
+readability-lxml
+playwright
+anthropic 
