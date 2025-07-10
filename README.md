@@ -22,24 +22,6 @@ python3 -m playwright install
 
 ## Usage
 
-### 1. Set your API key
-Copy your API key to your clipboard, then set the environment variable for your provider:
-
-#### For xAI Grok
-```bash
-export GROK_API_KEY="$(pbpaste)"
-```
-
-#### For Anthropic Claude
-```bash
-export ANTHROPIC_API_KEY="$(pbpaste)"
-```
-
-#### For OpenAI GPT (if you switch the code back to OpenAI)
-```bash
-export OPENAI_API_KEY="$(pbpaste)"
-```
-
 ### 2. Run the script
 ```bash
 python3 scrape_and_summarize.py
